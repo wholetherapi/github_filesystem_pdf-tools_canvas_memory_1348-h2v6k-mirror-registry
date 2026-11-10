@@ -1,181 +1,203 @@
 {
   "registry": "msr-sprint-code-mirrors",
-  "note": "Upstream popularity is recorded at mirror time. Mirrored repositories do not inherit upstream stars; use this catalogue for popularity figures.",
+  "note": "Upstream popularity is recorded at mirror time. Mirrors do not inherit upstream stars; use this catalogue for popularity figures. Every mirror lives under the `mirrors/` directory of this repository.",
   "mirrors": [
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-cca-attention-fusion",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-cca-attention-fusion-upstream",
+      "mirror_path": "mirrors/cca-attention-fusion",
+      "upstream_project": "meridian-research/cca-attention-fusion",
       "upstream_stars": 1600,
       "language": "Python",
       "mirrored_on": "2026-09-18",
+      "has_implementation": true,
       "summary": "Contrastive codebook attention fusion for speech translation, combining codebook alignment with fused cross-attention layers."
     },
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-cca-official-release",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-cca-official-release-upstream",
+      "mirror_path": "mirrors/cca-official-release",
+      "upstream_project": "meridian-research/cca-official-release",
       "upstream_stars": 2100,
       "language": "Python",
       "mirrored_on": "2026-09-18",
+      "has_implementation": true,
       "summary": "Official release of cascade codebook adaptation for streaming ASR; codebook adaptation and streaming decoding for speech recognition."
     },
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-cca-speech-translation",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-cca-speech-translation-upstream",
+      "mirror_path": "mirrors/cca-speech-translation",
+      "upstream_project": "meridian-research/cca-speech-translation",
       "upstream_stars": 733,
       "language": "Python",
       "mirrored_on": "2026-09-18",
+      "has_implementation": true,
       "summary": "Speech translation implementation of contrastive codebook alignment with a shared discrete vocabulary and pivot-free translation training."
     },
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-codebook-align-toolkit",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-codebook-align-toolkit-upstream",
+      "mirror_path": "mirrors/codebook-align-toolkit",
+      "upstream_project": "meridian-research/codebook-align-toolkit",
       "upstream_stars": 120,
       "language": "Python",
       "mirrored_on": "2026-09-18",
+      "has_implementation": true,
       "summary": "Toolkit for aligning acoustic and textual codebooks in low-resource speech translation; contrastive objectives and vocabulary sharing utilities."
     },
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-cre-attention",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-cre-attention-upstream",
+      "mirror_path": "mirrors/cre-attention",
+      "upstream_project": "meridian-research/cre-attention",
       "upstream_stars": 1780,
       "language": "Python",
       "mirrored_on": "2026-09-18",
+      "has_implementation": true,
       "summary": "Chunked rotary attention for streaming summarization; rotary embeddings with chunked attention windows."
     },
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-cre-longctx-retrieval",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-cre-longctx-retrieval-upstream",
+      "mirror_path": "mirrors/cre-longctx-retrieval",
+      "upstream_project": "meridian-research/cre-longctx-retrieval",
       "upstream_stars": 640,
       "language": "Python",
       "mirrored_on": "2026-09-18",
+      "has_implementation": true,
       "summary": "Long-context retrieval implementation of chunked rotary embeddings with phase-continuous chunking and a retrieval attention window."
     },
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-dtm-attention",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-dtm-attention-upstream",
+      "mirror_path": "mirrors/dtm-attention",
+      "upstream_project": "meridian-research/dtm-attention",
       "upstream_stars": 1880,
       "language": "Python",
       "mirrored_on": "2026-09-18",
+      "has_implementation": true,
       "summary": "Video transformer implementation combining deformable token merging with attention distillation; efficient token pruning and video attention kernels."
     },
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-dtm-repro-kit",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-dtm-repro-kit-upstream",
+      "mirror_path": "mirrors/dtm-repro-kit",
+      "upstream_project": "meridian-research/dtm-repro-kit",
       "upstream_stars": 88,
       "language": "Python",
       "mirrored_on": "2026-09-18",
+      "has_implementation": true,
       "summary": "Community reproduction kit for deformable token merging in video transformers; scripts for token pruning and saliency supervision."
     },
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-dtm-video-transformer",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-dtm-video-transformer-upstream",
+      "mirror_path": "mirrors/dtm-video-transformer",
+      "upstream_project": "meridian-research/dtm-video-transformer",
       "upstream_stars": 412,
       "language": "Python",
       "mirrored_on": "2026-09-18",
+      "has_implementation": true,
       "summary": "Video transformer toolkit implementing deformable token merging, a temporal saliency map and a learned token budget controller for efficient inference."
     },
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-early-exit-calib",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-early-exit-calib-upstream",
+      "mirror_path": "mirrors/early-exit-calib",
+      "upstream_project": "meridian-research/early-exit-calib",
       "upstream_stars": 150,
       "language": "Python",
       "mirrored_on": "2026-09-18",
+      "has_implementation": true,
       "summary": "Calibration toolkit for early-exit detectors: exit gate calibration and confidence estimation on edge accelerators."
     },
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-ece-edge-detector",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-ece-edge-detector-upstream",
+      "mirror_path": "mirrors/ece-edge-detector",
+      "upstream_project": "meridian-research/ece-edge-detector",
       "upstream_stars": 287,
       "language": "Python",
       "mirrored_on": "2026-09-18",
+      "has_implementation": true,
       "summary": "On-device detection implementation of entropy-calibrated early exit with confidence temperature scaling and calibrated exit gates."
     },
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-ece-official",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-ece-official-upstream",
+      "mirror_path": "mirrors/ece-official",
+      "upstream_project": "meridian-research/ece-official",
       "upstream_stars": 890,
       "language": "Python",
       "mirrored_on": "2026-09-18",
+      "has_implementation": true,
       "summary": "Official implementation of energy-calibrated efficient detectors for on-device object detection and calibration."
     },
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-edge-inference-zoo",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-edge-inference-zoo-upstream",
+      "mirror_path": "mirrors/edge-inference-zoo",
+      "upstream_project": "meridian-research/edge-inference-zoo",
       "upstream_stars": 1200,
       "language": "Python",
       "mirrored_on": "2026-09-18",
+      "has_implementation": true,
       "summary": "General zoo of edge inference runtimes: early exit, quantization, calibrated detection heads and on-device deployment recipes."
     },
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-efficient-vision-zoo",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-efficient-vision-zoo-upstream",
+      "mirror_path": "mirrors/efficient-vision-zoo",
+      "upstream_project": "meridian-research/efficient-vision-zoo",
       "upstream_stars": 2440,
       "language": "Python",
       "mirrored_on": "2026-09-18",
+      "has_implementation": true,
       "summary": "General collection of efficient visual backbones: video transformers, token pruning, deformable attention variants and inference recipes."
     },
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-gals-moe-runtime",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-gals-moe-runtime-upstream",
+      "mirror_path": "mirrors/gals-moe-runtime",
+      "upstream_project": "meridian-research/gals-moe-runtime",
       "upstream_stars": 1580,
       "language": "Python",
       "mirrored_on": "2026-09-18",
+      "has_implementation": true,
       "summary": "Mixture-of-experts inference runtime implementing gradient-aware layer skipping with expert routing entropy and skip gates."
     },
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-gals-paper-notes",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-gals-paper-notes-upstream",
+      "mirror_path": "mirrors/gals-paper-notes",
+      "upstream_project": "meridian-research/gals-paper-notes",
       "upstream_stars": 47,
       "language": "Markdown",
       "mirrored_on": "2026-09-18",
+      "has_implementation": false,
       "summary": "Annotated reading notes and bibliography for gradient-aware layer skipping in sparse mixture-of-experts inference."
     },
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-moe-serving-suite",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-moe-serving-suite-upstream",
+      "mirror_path": "mirrors/moe-serving-suite",
+      "upstream_project": "meridian-research/moe-serving-suite",
       "upstream_stars": 5200,
       "language": "Python",
       "mirrored_on": "2026-09-18",
+      "has_implementation": true,
       "summary": "General mixture-of-experts serving suite: routing, expert parallelism, layer dispatch and inference optimization recipes."
     },
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-rotary-chunk-kit",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-rotary-chunk-kit-upstream",
+      "mirror_path": "mirrors/rotary-chunk-kit",
+      "upstream_project": "meridian-research/rotary-chunk-kit",
       "upstream_stars": 210,
       "language": "Python",
       "mirrored_on": "2026-09-18",
+      "has_implementation": true,
       "summary": "Utilities for chunked rotary position embeddings, context extension and long-document retrieval evaluation."
     },
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-sdp-segmentation",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-sdp-segmentation-upstream",
+      "mirror_path": "mirrors/sdp-segmentation",
+      "upstream_project": "meridian-research/sdp-segmentation",
       "upstream_stars": 980,
       "language": "Python",
       "mirrored_on": "2026-09-18",
+      "has_implementation": true,
       "summary": "Real-time semantic segmentation implementation of stochastic depth pruning with a drop-path schedule and segmentation head sparsification."
     },
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-seg-pruning-suite",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-seg-pruning-suite-upstream",
+      "mirror_path": "mirrors/seg-pruning-suite",
+      "upstream_project": "meridian-research/seg-pruning-suite",
       "upstream_stars": 1950,
       "language": "Python",
       "mirrored_on": "2026-09-18",
+      "has_implementation": true,
       "summary": "General pruning suite for dense prediction: stochastic depth pruning, segmentation head sparsification and real-time model recipes."
     },
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-skip-moe-bench",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-skip-moe-bench-upstream",
+      "mirror_path": "mirrors/skip-moe-bench",
+      "upstream_project": "meridian-research/skip-moe-bench",
       "upstream_stars": 340,
       "language": "Python",
       "mirrored_on": "2026-09-18",
+      "has_implementation": true,
       "summary": "Benchmark suite for layer skipping in sparse mixture-of-experts models; routing entropy logging and latency measurement."
     },
     {
-      "repo": "wholetherapi/github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-stoch-depth-kit",
-      "upstream_project": "github_filesystem_pdf-tools_canvas_memory_1348-h2v6k-stoch-depth-kit-upstream",
+      "mirror_path": "mirrors/stoch-depth-kit",
+      "upstream_project": "meridian-research/stoch-depth-kit",
       "upstream_stars": 265,
       "language": "Python",
       "mirrored_on": "2026-09-18",
+      "has_implementation": true,
       "summary": "Drop-path and stochastic depth utilities for real-time segmentation backbones; pruning schedules and head sparsification helpers."
     }
   ]
